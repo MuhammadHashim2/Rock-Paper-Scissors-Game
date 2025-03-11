@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./Img/gamepad.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div class="container">
+          <h1 class="animate__animated animate__bounceInDown">Rock Paper Scissor</h1>
+          <button class="animate__animated animate__zoomInUp" onclick="startGame('Rock')">✊</button>
+          <button class="animate__animated animate__zoomInUp" onclick="startGame('Paper')">✋</button>
+          <button class="animate__animated animate__zoomInUp" onclick="startGame('Scissor')">✌️</button>
+    </div>
+    <div class="result">
+          <h4 class="yourscore"></h4>
+          <h4 class="pcscore"></h4>
+          <h4 class="resultt"></h4>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./game.js"></script>
+</body>
+</html>
